@@ -18,8 +18,7 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
-    "deploy": "npm ci && npm run build && npm run start:prod"
+    "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
@@ -71,5 +70,9 @@
   },
   "resolutions": {
     "@aginix/nestjs-firebase-admin/@nestjs/common": "^8.0.0"
+  },
+  "engines": {
+    "npm": ">=8.1.2",
+    "node": ">=16.13.1"
   }
 }
