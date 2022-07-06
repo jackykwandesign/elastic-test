@@ -9,3 +9,4 @@ cd /var/app/staging/
 # debugging..
 ls -lah
 yarn
+yarn build
