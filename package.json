@@ -68,5 +68,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "resolutions": {
+    "@aginix/nestjs-firebase-admin/@nestjs/common": "^8.0.0"
   }
 }
